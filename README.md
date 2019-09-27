@@ -13,8 +13,8 @@ node --version
 -Installation on linux
 nodejs.org
 download the appropriate tarball (archive package ending in tar.xz) under "Linux Binaries".This will leae you with a file of the form node-vX.Y.Z-linux-x64.tar.xz.
-max@hostname:~$ cd ~/bin
-max@hostname:~$ tar xz ~/Downloads/node-vX.Y.Z-linux-x64.tar.xz
-max@hostname:~$ PATH=$PATH:~/bin/node-vX.Y.Z-linux-x64
+maxz@hostname:~$ cd ~/bin
+maxz@hostname:~$ tar xz ~/Downloads/node-vX.Y.Z-linux-x64.tar.xz
+maxz@hostname:~$ PATH=$PATH:~/bin/node-vX.Y.Z-linux-x64
 
 -for building from the source code go to github.com/nodejs/node
