@@ -1,0 +1,53 @@
+Node.js has number,booleans,string and object core types,function and array are complex types.The types null and undefined are also special kinds of objects.
+var x;
+>undefined
+var {};
+{}
+
+#To see type of anything in javascript,you use the typeof operator:
+
+>type of 10
+'number'
+>typeof "hello";
+'string'
+>typeof undefined
+'undefined'
+>typeof function() { var x = 20;}
+'function'
+>
+
+Constants
+
+>var SECONDS_PER_DAY = 84600; #For constants use uppercase letters in variable declarations
+undefined
+>console.log(SECONDS_PER_DAY);
+86400
+undefined
+>1024 * 1024
+1048576
+
+#performing floating point mathematical operations,can't manipulate arbitrary real numbers and expect an exact value
+>1-0.3+0.1 == 0.8
+false
+>
+
+#returns the value Infinity
+>5/0
+Infinity
+>-5/0
+-Infinity
+
+>var x = 10,y=0;
+undefined
+>x/y == Infinity
+true
+>
+
+#parseInt and parseFloat function to convert strings to numbers
+
+>parseInt("32523523626263")
+32523523626263
+>parseInt(234.242424)
+234
+
+
