@@ -3,9 +3,18 @@ Learning Node.js
 
 Getting Started
 
-Installation on windows
+-Installation on windows
 nodejs.org
 Visit the download page and then download the windows installer (.msi)
 
-verifying installation
+-verifying installation
 node --version
+
+-Installation on linux
+nodejs.org
+download the appropriate tarball (archive package ending in tar.xz) under "Linux Binaries".This will leae you with a file of the form node-vX.Y.Z-linux-x64.tar.xz.
+max@hostname:~$ cd ~/bin
+max@hostname:~$ tar xz ~/Downloads/node-vX.Y.Z-linux-x64.tar.xz
+max@hostname:~$ PATH=$PATH:~/bin/node-vX.Y.Z-linux-x64
+
+-for building from the source code go to github.com/nodejs/node
