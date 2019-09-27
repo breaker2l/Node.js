@@ -18,3 +18,10 @@ maxz@hostname:~$ tar xz ~/Downloads/node-vX.Y.Z-linux-x64.tar.xz
 maxz@hostname:~$ PATH=$PATH:~/bin/node-vX.Y.Z-linux-x64
 
 -for building from the source code go to github.com/nodejs/node
+
+#Connecting with node.js community
+join the node.js mailing list http://groups.google.com/group/nodejs
+
+Twitter @nodejs
+
+nodejs.org
