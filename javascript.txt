@@ -50,4 +50,68 @@ true
 >parseInt(234.242424)
 234
 
+#NAN
+>parseInt("cat")
+NaN
+>parseFloat("Wankel rotatory engine")
+NaN
+
+#isNaN
+>isNaN(parseInt("cat"));
+true
+
+#validating finite number
+>isFinite(10/5);
+true
+>isFinite(10/0);
+false
+
+#Booleans
+Values can be either true or false
+
+#strings
+strings in js are sequences of unicode characters 
+
+-length 
+>var x = "cat"
+undefined
+>x.length;
+3
+>"cat".length;
+3
+
+>x = null
+null
+>x.length;
+Type error:cannot read property 'length' of null
+
+#To add two strings together,you can use the +operator
+>"cats" + "go" + "meow"
+'cats go meow'
+>
+
+>var distance = 25;
+undefined
+>"I ran " + distance + " kilometers today";
+'I ran 25 kilometers today'
+>
+
+> 5 + 3 + "is my favourite number";
+'8 is my favourite number'
+>
+
+> "" + 5 + 3 + "is my favourite number ";
+'53 is my favourite number'
+>
+
+-String functions 
+>"Wishy washy winter".indexof("wash");
+6
+>
+
+#To extract a substring from a string,use substr or splice function
+> "No, they're saying Booo-urns.".substr(19, 3);
+'Boo'
+> "No, they're saying Booo-urns.".substr(19, 22);
+'Boo'
 
