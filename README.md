@@ -25,3 +25,6 @@ join the node.js mailing list http://groups.google.com/group/nodejs
 Twitter @nodejs
 
 nodejs.org
+
+cd C://Users/your name/Desktop
+node filename.js
