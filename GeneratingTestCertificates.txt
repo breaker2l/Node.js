@@ -1,0 +1,9 @@
+#For windows users
+you can download a win32 version of openssl.exe by visiting https://gnuwin32.sourceforge.net/packages/openssl.htm.Then the commands you run are 
+the same as on the other platforms
+
+-To generate the two certificate files,run the following three commands:
+openssl genrsa -out privkey.pem 1024
+openssl req -new -key privkey.pem -out certreq.csr
+openssl x509 -req -days 3650 -in certreq.csr -signkey privkey.pem -out newcart.pem
+
